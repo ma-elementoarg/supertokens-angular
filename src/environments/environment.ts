@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  appName: "taqwa-invest",
+  apiDomain: "http://localhost:3001",
+  websiteDomain: "http://localhost:4200",
+  apiBasePath: "/auth",
+  websiteBasePath: "/taqwainvest"
+  
 };
 
 /*
